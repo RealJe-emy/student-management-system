@@ -3,11 +3,13 @@
     {
       "name": "windows-gcc-x86",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+       "C:/Program Files/MySQL/MySQL Server 8.0/include"
+
       ],
       "compilerPath": "C:/Program Files (x86)/Falcon/MinGW/bin/gcc.exe",
       "cStandard": "${default}",
-      "cppStandard": "${default}",
+      "cppStandard": "c++23",
       "intelliSenseMode": "windows-gcc-x86",
       "compilerArgs": [
         ""
